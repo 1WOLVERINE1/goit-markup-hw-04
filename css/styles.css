@@ -187,16 +187,15 @@ img {
 .quality-item:last-child {
   margin-right: 0;
 }
-.quality-item::before {
-  margin-bottom: 8px;
-  display: block;
+.quality-icon-content {
+  width: 264px;
   height: 112px;
-  content: '';
-  background-color: var(--background-btn-color);
+  margin-bottom: 8px;
+  display: flex;
+  background-color: #f4f4fd;
   border-radius: 4px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  align-items: center;
+  justify-content: center;
 }
 .quality-title {
   margin-bottom: 8px;
